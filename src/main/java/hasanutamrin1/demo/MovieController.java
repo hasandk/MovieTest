@@ -16,4 +16,9 @@ public class MovieController {
         }
 // dette er en kommentar
     }
+
+    @GetMapping ("/kage")
+    public String kage(){
+        return "kage";
+    }
 }
