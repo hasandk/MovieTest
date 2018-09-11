@@ -9,6 +9,11 @@ public class MovieController {
     public String movie(){
         return "movie";
 
+        @GetMapping("/Gusse")
+                public String gustav(){
 
+            return "gustav";
+        }
+// dette er en kommentar
     }
 }
