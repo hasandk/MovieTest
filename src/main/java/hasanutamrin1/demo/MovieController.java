@@ -21,4 +21,7 @@ public class MovieController {
     public String kage(){
         return "kage";
     }
+    @GetMapping ("/hasan")
+    public String hasan(){
+        return "hasan";
 }
