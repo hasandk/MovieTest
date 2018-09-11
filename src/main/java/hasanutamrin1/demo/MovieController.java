@@ -20,5 +20,7 @@ public class MovieController {
     @GetMapping ("/kage")
     public String kage(){
         return "kage";
+
+        //MERGE fejl
     }
 }
